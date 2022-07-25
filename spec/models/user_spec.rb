@@ -12,9 +12,6 @@ RSpec.describe User, type: :model do
     it 'password presence validation' do
       should validate_presence_of(:password_digest)
     end
-    it 'email presence validation' do
-      should validate_presence_of(:email)
-    end
     it 'type presence validation' do
       should validate_presence_of(:type)
     end
